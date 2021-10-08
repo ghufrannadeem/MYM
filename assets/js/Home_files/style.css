@@ -1,0 +1,106 @@
+/* Global Box-sizing
+------------------------------------*/
+/* {transition: all 0.5s ease-in;}*/
+
+@font-face { font-family: 'La Luxes Script'; src: url('assets/fonts/LaLuxesScript.woff2') format('woff2'), url('assets/fonts/LaLuxesScript.woff') format('woff'); font-weight: normal; font-style: normal; font-display: swap; }
+
+body { background: #fff; font-weight: 400; font-family: 'Playfair Display', serif;; font-style: normal; font-size: 16px; line-height: 22px; color: #000000; padding: 0; margin: 0px; position: relative; }
+p { font-weight: 400; font-family: 'Playfair Display', serif;; font-style: normal; font-size: 16px; line-height: 22px; color: #000000; padding: 0; margin: 0 0 22px 0; }
+ul { list-style: none;margin: 0; padding: 0;  }
+li { list-style: none; }
+h1, h2, h3, h4, h5, h6 {font-family: 'La Luxes Script';}
+a, span, i { display:  inline-block; }
+a, a:hover, a:visited { text-decoration: none; }
+a:focus, span:focus, button:focus, li, div, input, * { outline: none; }
+img, a img { display: inline-block; max-width: 100%; height: auto; }
+*, *:after, *:before { padding:0; margin:0; list-style:none; border:none; box-sizing:border-box; }
+.clearfix:before, .gform_wrapper:before, ul:before,
+.clearfix:after, .gform_wrapper:after, ul:after { content:''; display:table; }
+.clearfix:after, .gform_wrapper:after, ul:after { clear:both; }
+.clearfix, .gform_wrapper, ul { *zoom:1; }
+.defaultBtn {padding: 0px 50px;margin: 0;font-size: 17px;line-height: 50px;color: #fff9f7;text-transform: uppercase;display: inline-block;font-weight: 400;margin-top: 35px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#443caa+1,272364+100 */ /* Old browsers */ /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ /* IE6-9 */background: #deb24d;transition: all ease 0.3s;}
+.defaultBtn:hover {color: #fff;background: #675221;}
+.borderBtn { border: 1px solid #deb24d;; padding: 0px 50px; line-height: 50px; border-radius: 0px; font-size: 16px; font-weight: 400; color: #deb24d; transition: all 0.3s ease-in; text-transform: uppercase;}
+.borderBtn:hover { color: #fff; background-color: #deb24d; }
+.shadowImg img {box-shadow: -45px -45px 0px #f8f0db;}
+
+h2 { font-size: 100px; font-weight: 400; color: #000000; padding: 0px; margin: 0px;}
+
+
+/* AnimationForm
+------------------------------------*/
+form.AnimationForm .field {position:relative;box-sizing: border-box;margin-bottom: 20px;float: left;width: 100%;border-bottom: 2px solid #c4c4c2;}
+form.AnimationForm .field:before {}
+form.AnimationForm .field fieldset {position: absolute;top: 10px;left: 0px;color: #7f7f7f;font-size:  16px;font-weight: 400;transform: translate3d(0, 0, 0);transition: all 0.5s ease-in-out;z-index: 1;}
+form.AnimationForm .field input, form.AnimationForm .field select, form.AnimationForm .field textarea {z-index: 111;position:relative;background: transparent;width: 100%;height: 42px;padding: 0px;margin: 0;font-size: 16px;font-weight: 500;color: #7f7f7f;}
+form.AnimationForm .field input:faocus { outline: 0;}
+form.AnimationForm .field fieldset.active{z-index: 999;top:-20px;color: #262261;}
+form.AnimationForm .field.phone fieldset {left: 120px;}
+form.AnimationForm .field.textarea textarea { height: 97px; resize: none;  }
+form.AnimationForm .field.submit { background-color: transparent}
+form.AnimationForm .field:nth-last-child(2):before { width: calc(90% - 0px ); }
+/* AnimationForm
+------------------------------------*/
+
+
+
+
+/*-----CUSTOM CHECKBOX-------*/
+.styled-checkbox {position: absolute;opacity: 0;}
+.styled-checkbox + label {position: relative;cursor: pointer;padding: 0;font-size: 14px;font-weight: 400;color: #deb24d;}
+.styled-checkbox + label:before {content: '';margin-right: 10px;display: inline-block;vertical-align: text-top;width: 20px;height: 20px;background: #555f7b;border: 1px solid #374156;}
+/*.styled-checkbox:hover + label:before {background: #f35429;}*/
+.styled-checkbox:focus + label:before {box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12);}
+.styled-checkbox:checked + label:before {background: #ffffff;}
+.styled-checkbox:disabled + label {color: #b8b8b8;cursor: auto;}
+.styled-checkbox:disabled + label:before {box-shadow: none;background: #ddd;}
+.styled-checkbox:checked + label:after {content: '';position: absolute;left: 4px;top: 9px;background: url(../images/icon-check.png) center center no-repeat;width: 11px;height: 11px;}
+
+
+
+.topBg { background-color: #d645bd; }
+.topBg p { padding: 0px; margin: 0px; text-align: center; line-height: 40px; font-size: 18px; font-weight: 400; color: #ffffff;  }
+
+.banBg { position: relative; }
+.banBg .menuBg  { background-color: rgba(255,255,255,0.8); position: absolute; left: 0; top: 0px; width: 100%; padding: 10px 15px;  }
+.banBg .menuBg .logo { display: block; }
+.banBg .menuBg .mainMenu { margin: 6px 50px 0 ; }
+.banBg .menuBg .mainMenu ul { display: flex; justify-content: flex-end; align-content: center; }
+.banBg .menuBg .mainMenu ul li { font-size: 17px; font-weight: 400; color: #000000; padding: 0px; margin: 0 20px; text-transform: uppercase; }
+/*.banBg .menuBg .mainMenu ul li + li { margin-right: 50px; }*/
+.banBg .menuBg .mainMenu ul li a { color: #000000;  }
+.banBg .menuBg .mainMenu ul li a:hover { color: #d645bd;  }
+
+
+.banBotTxt {}
+.banBotTxt p { font-size: 33px; font-weight: 400; color: #000000; padding: 25px 0px; margin: 0px; }
+.banBotTxt a {line-height: 95px;text-align: center;background-color: #d645bd;font-size: 36px;font-weight: 600;color: #ffffff;display: inline-block;padding: 0 15px;margin-top: -25px; transition: 0.3s; }
+.banBotTxt a:hover {background-color: #bd3aa6; }
+
+.banBotLogo { text-align: center; }
+.banBotLogo .row { min-height: 180px; }
+
+
+.misSec { position: relative; background: url(assets/images/mission_img.png) right top no-repeat; min-height: 577px; }
+.misSec:before  { width: 190px; height: 210px; background-color: #e747d1; position: absolute; left: 0px; top: 0px; content: ''; }
+.misSec .misTxt {position: relative;background: #ffffff;border: 2px solid #e747d1;margin: 100px 0 0 60px;padding: 30px 40px 60px 40px;}
+.misSec .misTxt:after {width: 130px;height: 130px;background: url(assets/images/mission_goal.png) left top no-repeat;position: absolute;right: -60px;bottom: 10px;content: '';}
+.misSec .misTxt h2 {}
+.misSec .misTxt p {}
+.misSec .misTxt a { display: block; background: #d645bd; width: 250px; text-align: center; line-height: 60px; border-radius: 10px; font-size: 25px; font-weight: 400; color: #ffffff; margin: auto auto -20px;}
+
+
+.jointFormSec	{ position: relative; margin-top: 90px; }
+.jointFormSec:after {z-index: -1; width: 410px; height: 830px; background: #02a650; position: absolute; right: 15px; top: 0px; content: ''; }
+.jointFormSec .joinImg { margin: 30px 0 0 0;  }
+.jointFormSec .joinImg img { max-width: inherit; }
+/* Responsive
+------------------------------------*/
+@media only screen and (min-width: 1200px){}
+@media only screen and (max-width: 1366px){}
+@media (min-width:1170px) and (max-width: 1281px) {}
+@media (min-width:1000px) and (max-width: 1169px) {}
+@media (min-width: 768px) and (max-width: 999px) {}
+@media (max-width: 767px) {}
+@media (max-width: 320px) {}

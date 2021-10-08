@@ -1,0 +1,19 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 48.2 37.6" style="enable-background:new 0 0 48.2 37.6;" xml:space="preserve">
+<style type="text/css">
+	
+		.st0{clip-path:url(#SVGID_2_);fill:none;stroke:#B2963F;stroke-width:1.579;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" y="0" width="48.2" height="37.6"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<polyline class="st0" points="0.8,36.8 6.2,36.8 47.4,36.8 	"/>
+	<polyline class="st0" points="41,36.8 41,16.3 27.7,29.7 17.3,19.3 6.2,30.5 6.2,36.8 	"/>
+	<polyline class="st0" points="3.7,20.4 17.3,6.8 27.6,17 43.6,1.1 	"/>
+	<polyline class="st0" points="35.3,0.8 43.8,0.8 43.8,9.4 	"/>
+</g>
+</svg>
